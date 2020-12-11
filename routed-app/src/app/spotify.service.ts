@@ -12,7 +12,7 @@ export class SpotifyService {
     const url = `https://api.spotify.com/v1/search?q=${query}&type=track`;
     const headers = new HttpHeaders({
       Authorization:
-        'Bearer BQCPeAvuZ6X_rX7gxsjXYw4nXXjEfzQxI1DQuQyIP-YfNeA0C92FsPbOQbFBxtXnmBMTczxCdWvB9i35LD9UoDlfRQELesUlL9WFM8iv2IFYV1h2ZdnjAGV-xxyVgbOqAq8J1sFFvGAUcLISq1FgzlgposUvVQU'
+        'Bearer BQC9AQktp1IpMMkNoxdgjCXObew3TxV65bHUBSoExAG1kbSXfKcNAEEuK2VoqXFPggDeudU-a5u3vNfzgZkAPqAEf_RBN7QuXz9JW1JX2pQ7gil0JmXI6S2ot_CXdarqpFl8Blpd6qqRMZrRyRe5-vKAw6T08WY'
     });
 
     let obsTracks = this.http.get(url, { headers });
